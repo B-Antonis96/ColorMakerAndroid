@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Programmeren\\Eigen Programma's\\AndroidColorMaker\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {}
+    "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {}
   },
   "projects": {
-    "F:\\Programmeren\\Eigen Programma's\\AndroidColorMaker\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
+    "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Programmeren\\Eigen Programma's\\AndroidColorMaker\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
+        "projectUniqueName": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
         "projectName": "AndroidColorMaker",
-        "projectPath": "F:\\Programmeren\\Eigen Programma's\\AndroidColorMaker\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
+        "projectPath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "F:\\Programmeren\\Eigen Programma's\\AndroidColorMaker\\Project\\AndroidColorMaker\\AndroidColorMaker\\obj\\",
+        "outputPath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
