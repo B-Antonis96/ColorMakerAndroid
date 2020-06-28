@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AndroidColorMaker.MainPage" Appearing="ContentPage_Appearing">
+
+    <StackLayout Style="{StaticResource BackgroundStyle}">
+
+        <!--///////////////////
+        KLEURSCHERM
+        /////////////////// -->
+        <Frame x:Name="lblColorLabel" 
+               Margin="10" 
+               Style="{StaticResource ColorFrameRound}"
+        />
+
+        <BoxView Style="{StaticResource Seperator}"/>
+
+        <!--///////////////////
+        ZELF KLEUR INGEVEN
+        /////////////////// -->
+        <StackLayout Style="{StaticResource StackMargin}">
+
+            <FlexLayout>
+                <Switch x:Name="cbColorInput" Style="{StaticResource Switch}" Toggled="cbColorInput_Toggled"/>
+                <Label Text="KLEUR INGEVEN" Style="{StaticResource SwitchLabel}"/>
+            </FlexLayout>
+            
+            <FlexLayout>
+
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblRoodInput" Text="ROOD" TextColor="Red" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entRood" Style="{StaticResource EntryStyle}"/>
+                    <Button x:Name="btnResetRodeButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetRodeButton_Clicked"/>
+                </StackLayout>
+                
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblGroenInput" Text="GROEN" TextColor="Green" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entGroen" Style="{StaticResource EntryStyle}" />
+                    <Button x:Name="btnResetGroeneButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetGroeneButton_Clicked"/>
+                </StackLayout>
+                
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblBlauwInput" Text="BLAUW" TextColor="Blue" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entBlauw" Style="{StaticResource EntryStyle}" />
+                    <Button x:Name="btnResetBlauweButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetBlauweButton_Clicked"/>
+                </StackLayout>
+                
+            </FlexLayout>
+
+            <Button x:Name="btnPassColorCode" Text="VERWERK INVOER" Style="{StaticResource RoundButton}" Clicked="btnPassColorCode_Clicked"/>
+        
+        </StackLayout>
+        
+        <BoxView Style="{StaticResource Seperator}"/>
+
+        <!--///////////////////
+        RANDOM KLEUR KIEZEN
+        /////////////////// -->
+        <StackLayout  Style="{StaticResource StackMargin}">
+            
+            <FlexLayout>
+                <Switch x:Name="cbColorRandom" Style="{StaticResource Switch}" Toggled="cbColorRandom_Toggled"/>
+                <Label Text="RANDOM KLEUR" Style="{StaticResource SwitchLabel}"/>
+            </FlexLayout>
+
+            <FlexLayout>
+
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblRoodRandom" Text="ROOD" TextColor="Red" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entRoodRandom" IsReadOnly="True" Style="{StaticResource EntryStyle}"/>
+                </StackLayout>
+
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblGroenRandom" Text="GROEN" TextColor="Green" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entGroenRandom" IsReadOnly="True" Style="{StaticResource EntryStyle}"/>
+                </StackLayout>
+
+                <StackLayout Style="{StaticResource StackMargin}">
+                    <Label x:Name="lblBlauwRandom" Text="BLAUW" TextColor="Blue" Style="{StaticResource LabelKleur}"/>
+                    <Entry x:Name="entBlauwRandom" IsReadOnly="True" Style="{StaticResource EntryStyle}"/>
+                </StackLayout>
+                
+            </FlexLayout>
+
+            <Button x:Name="btnPassRandomCode" Text="RANDOM KLEUR / CODE" Style="{StaticResource RoundButton}" Clicked="btnPassRandomCode_Clicked"/>
+            
+        </StackLayout>
+
+        <BoxView Style="{StaticResource Seperator}"/>
+
+        <!--///////////////////
+        OUTPUT KLEURCODE
+        /////////////////// -->
+        <StackLayout>
+            <Label Text="OUTPUT KLEURCODE" Margin="0, 5, 0, 0" HorizontalOptions="Center" Style="{StaticResource  SwitchLabel}"/>
+            <Entry x:Name="ediOutput" IsReadOnly="True" Style="{StaticResource CodeEntryStyle}"/>
+            <Button x:Name="btnResetColorCode" BackgroundColor="Red" Text="RESET CODE" Style="{StaticResource RoundButton}" Clicked="btnResetColorCode_Clicked"/>
+        </StackLayout>
+
+
+    </StackLayout>
+    
+    
+
+</ContentPage>
