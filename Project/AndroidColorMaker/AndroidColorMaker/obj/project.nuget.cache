@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8GGPEhqUywWaiAHCsS2e04VYFW83MuO2RdQN8dY79Dtxd56yVpb4ruDk1xFCDY2lpwaQM+8cw3E2hyoKUWlhbA==",
+  "dgSpecHash": "YAEaQ1X+aMvp6/L0ov1qAPTvNZ/moDl1tr3xAVvL2Ui/haFdmS1R1VMWIjon133Y+5AwRbGoHOY3FgE91ukASQ==",
   "success": true,
-  "projectFilePath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
+  "projectFilePath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bryan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\bryan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

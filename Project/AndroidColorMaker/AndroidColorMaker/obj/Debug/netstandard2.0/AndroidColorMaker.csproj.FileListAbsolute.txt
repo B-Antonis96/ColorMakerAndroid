@@ -26,3 +26,17 @@ F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\An
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.dll
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\ref\AndroidColorMaker.dll
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.pdb
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.deps.json
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.dll
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\ref\AndroidColorMaker.dll
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.pdb
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.csprojAssemblyReference.cache
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.AssemblyInfoInputs.cache
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.AssemblyInfo.cs
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.csproj.CoreCompileInputs.cache
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.dll
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\ref\AndroidColorMaker.dll
+C:\Users\bryan\Desktop\GIT\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.pdb
