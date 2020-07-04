@@ -15,9 +15,9 @@
                     KLEURSCHERM
                    /////////////////// -->
                 <Frame x:Name="lblColorLabel" 
-               Margin="10" 
-               Style="{StaticResource ColorFrameRound}"
-        />
+                       Margin="10" 
+                       Style="{StaticResource ColorFrameRound}"
+                />
 
                 <BoxView Style="{StaticResource Seperator}"/>
 

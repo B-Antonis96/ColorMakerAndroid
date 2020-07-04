@@ -45,9 +45,6 @@ namespace AndroidColorMaker
         //INPUT GEDEELTE
         private void cbColorInput_Toggled(object sender, ToggledEventArgs e)
         {
-            //InputVisibility(true);
-            //RandomVisibility(false);
-
             if (cbColorInput.IsToggled == true)
             {
                 InputVisibility(true);
@@ -62,7 +59,6 @@ namespace AndroidColorMaker
                 cbColorInput.IsToggled = false;
                 cbColorRandom.IsToggled = true;
             }
-
 
             SetToBlack();
         }
@@ -115,9 +111,6 @@ namespace AndroidColorMaker
         //RANDOM GEDEELTE
         private void cbColorRandom_Toggled(object sender, ToggledEventArgs e)
         {
-            //RandomVisibility(true);
-            //InputVisibility(false);
-
             if (cbColorRandom.IsToggled == true)
             {
                 RandomVisibility(true);
