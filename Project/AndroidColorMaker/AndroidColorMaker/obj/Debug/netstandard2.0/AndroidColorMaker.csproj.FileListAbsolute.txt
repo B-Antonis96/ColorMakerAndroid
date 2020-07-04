@@ -26,3 +26,17 @@ F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\An
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.dll
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\ref\AndroidColorMaker.dll
 F:\Programmeren\Eigen Programma's\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.deps.json
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\ref\AndroidColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\bin\Debug\netstandard2.0\AndroidColorMaker.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.csprojAssemblyReference.cache
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.AssemblyInfoInputs.cache
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.AssemblyInfo.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.csproj.CoreCompileInputs.cache
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\ref\AndroidColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker\obj\Debug\netstandard2.0\AndroidColorMaker.pdb

@@ -1975,11 +1975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
+      "projectUniqueName": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
       "projectName": "AndroidColorMaker.Android",
-      "projectPath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
+      "projectPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
       "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-      "outputPath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\obj\\",
+      "outputPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
-              "projectPath": "F:\\Programmeren\\Eigen Programma's\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj"
+            "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
+              "projectPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj"
             }
           }
         }

@@ -45,9 +45,6 @@ namespace AndroidColorMaker
         //INPUT GEDEELTE
         private void cbColorInput_Toggled(object sender, ToggledEventArgs e)
         {
-            //InputVisibility(true);
-            //RandomVisibility(false);
-
             if (cbColorInput.IsToggled == true)
             {
                 InputVisibility(true);
@@ -62,26 +59,61 @@ namespace AndroidColorMaker
                 cbColorInput.IsToggled = false;
                 cbColorRandom.IsToggled = true;
             }
-
-
             SetToBlack();
         }
 
+        //RESET BUTTONs
         private void btnResetRodeButton_Clicked(object sender, EventArgs e)
         {
             entRood.Text = nul;
+            sldRood.Value = double.Parse(nul);
         }
-
         private void btnResetGroeneButton_Clicked(object sender, EventArgs e)
         {
             entGroen.Text = nul;
+            sldGroen.Value = double.Parse(nul);
         }
-
         private void btnResetBlauweButton_Clicked(object sender, EventArgs e)
         {
             entBlauw.Text = nul;
+            sldBlauw.Value = double.Parse(nul);
         }
 
+        //SLIDERS
+        private void sldRood_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            int rood = Convert.ToInt32(sldRood.Value);
+            entRood.Text = rood.ToString();
+        }
+        private void sldGroen_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            int groen = Convert.ToInt32(sldGroen.Value);
+            entGroen.Text = groen.ToString();
+        }
+        private void sldBlauw_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            int blauw = Convert.ToInt32(sldBlauw.Value);
+            entBlauw.Text = blauw.ToString();
+        }
+
+        //Text veranderd in ENTRY
+        private void entRood_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int.TryParse(entRood.Text, out int rood);
+            sldRood.Value = rood;
+        }
+        private void entGroen_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int.TryParse(entGroen.Text, out int groen);
+            sldGroen.Value = groen;
+        }
+        private void entBlauw_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int.TryParse(entBlauw.Text, out int blauw);
+            sldBlauw.Value = blauw;
+        }
+
+        //KNOP kleur initialiseren
         private void btnPassColorCode_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(entRood.Text))
@@ -98,9 +130,14 @@ namespace AndroidColorMaker
             }
             else
             {
-                entRood.Text = ColorSetter(int.Parse(entRood.Text)).ToString();
-                entGroen.Text = ColorSetter(int.Parse(entGroen.Text)).ToString();
-                entBlauw.Text = ColorSetter(int.Parse(entBlauw.Text)).ToString();
+                int.TryParse(entRood.Text, out int rood);
+                entRood.Text = ColorSetter(rood).ToString();
+
+                int.TryParse(entGroen.Text, out int groen);
+                entGroen.Text = ColorSetter(groen).ToString();
+
+                int.TryParse(entBlauw.Text, out int blauw);
+                entBlauw.Text = ColorSetter(blauw).ToString();
             }
 
             string kleurHex = HexMaker(entRood.Text, entGroen.Text, entBlauw.Text);
@@ -115,9 +152,6 @@ namespace AndroidColorMaker
         //RANDOM GEDEELTE
         private void cbColorRandom_Toggled(object sender, ToggledEventArgs e)
         {
-            //RandomVisibility(true);
-            //InputVisibility(false);
-
             if (cbColorRandom.IsToggled == true)
             {
                 RandomVisibility(true);
@@ -238,6 +272,9 @@ namespace AndroidColorMaker
             lblRoodInput.IsVisible = veld;
             lblGroenInput.IsVisible = veld;
             lblBlauwInput.IsVisible = veld;
+            sldRood.IsVisible = veld;
+            sldGroen.IsVisible = veld;
+            sldBlauw.IsVisible = veld;
 
             SetToNul();
         }

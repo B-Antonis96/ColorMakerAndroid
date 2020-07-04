@@ -10,7 +10,7 @@
 
             <!--Stijl voor achtergrond StackLayout-->
             <Style x:Key="BackgroundStyle" TargetType="{x:Type StackLayout}">
-                <Setter Property="BackgroundColor" Value="LightGray"/>
+                <Setter Property="BackgroundColor" Value="DarkGray"/>
             </Style>
 
             <!--Margin voor StackLayout-->
@@ -41,6 +41,8 @@
             <!--Stijl voor switches-->
             <Style x:Key="Switch" TargetType="{x:Type Switch}">
                 <Setter Property="Scale" Value="0.8"/>
+                <Setter Property="OnColor" Value="White"/>
+                <Setter Property="ThumbColor" Value="LightBlue"/>
             </Style>
             <Style x:Key="SwitchLabel" TargetType="{x:Type Label}">
                 <Setter Property="Margin" Value="0, 8, 0, 0"/>
@@ -52,12 +54,12 @@
             <Style x:Key="EntryStyle" TargetType="{x:Type Entry}">
                 <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="HeightRequest" Value="40"/>
-                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="WidthRequest" Value="250"/>
                 <Setter Property="FontSize" Value="16"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
             </Style>
 
-            <!--Stijl voor editor-->
+            <!--Stijl voor output-->
             <Style x:Key="CodeEntryStyle" TargetType="{x:Type Entry}" BasedOn="{StaticResource EntryStyle}">
                 <Setter Property="Margin" Value="100, 0, 100, 0"/>
             </Style>
@@ -79,6 +81,13 @@
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="10"/>
                 <Setter Property="HeightRequest" Value="32"/>
+            </Style>
+            
+            <!--Sliders-->
+            <Style x:Key="SliderStyle" TargetType="{x:Type Slider}">
+                <Setter Property="Maximum" Value="255"/>
+                <Setter Property="Minimum" Value="0"/>
+                <Setter Property="ThumbColor" Value="White"/>
             </Style>
 
 
