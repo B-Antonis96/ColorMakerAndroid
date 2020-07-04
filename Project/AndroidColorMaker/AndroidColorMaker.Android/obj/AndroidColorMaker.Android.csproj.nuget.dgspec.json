@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj": {}
+    "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj": {
+    "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
+        "projectUniqueName": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
         "projectName": "AndroidColorMaker.Android",
-        "projectPath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
+        "projectPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\AndroidColorMaker.Android.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\obj\\",
+        "outputPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
-                "projectPath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj"
+              "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
+                "projectPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
+    "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
+        "projectUniqueName": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
         "projectName": "AndroidColorMaker",
-        "projectPath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
+        "projectPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\AndroidColorMaker.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryan\\Desktop\\GIT\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\obj\\",
+        "outputPath": "F:\\Programmeren\\C# Projecten\\ColorMakerAndroid\\Project\\AndroidColorMaker\\AndroidColorMaker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -117,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
