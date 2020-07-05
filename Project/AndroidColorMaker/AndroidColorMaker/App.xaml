@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -81,6 +80,14 @@
                 <Setter Property="HeightRequest" Value="32"/>
             </Style>
 
+            <!--Slider Stijl-->
+            <Style x:Key="SliderStyle" TargetType="Slider">
+                <Setter Property="Minimum" Value="0"/>
+                <Setter Property="Maximum" Value="255"/>
+                <Setter Property="ThumbColor" Value="CornflowerBlue"/>
+                <Setter Property="MaximumTrackColor" Value="White"/>
+                <Setter Property="MinimumTrackColor" Value="Black"/>
+            </Style>
 
         </ResourceDictionary>
     </Application.Resources>
