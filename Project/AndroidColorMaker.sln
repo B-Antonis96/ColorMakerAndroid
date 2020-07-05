@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidColorMaker.Android", "AndroidColorMaker\AndroidColorMaker.Android\AndroidColorMaker.Android.csproj", "{129D0447-1430-4479-B9F6-C0A396A79DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidColorMaker", "AndroidColorMaker\AndroidColorMaker\AndroidColorMaker.csproj", "{F0AA0526-240A-458D-8D57-527E2C096BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidColorMaker", "AndroidColorMaker\AndroidColorMaker\AndroidColorMaker.csproj", "{F0AA0526-240A-458D-8D57-527E2C096BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

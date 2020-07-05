@@ -795,6 +795,7 @@ F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\Android
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\android\assets\Xamarin.Forms.Xaml.pdb
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\android\assets\Xamarin.Google.Android.Material.dll
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\android\assets\Xamarin.Google.Android.Material.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\androidx\proguard\a4761d39-6c61-4df9-a2ab-69349c19541e.cfg
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\stamp\_AndroidXJetifyProguardRules.stamp
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\androidx\_AndroidXJetifyProguardRules.jetify
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\stamp\_AndroidXCecilfy.stamp
@@ -1117,4 +1118,3 @@ F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\Android
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
-F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\AndroidColorMaker\AndroidColorMaker.Android\obj\Debug\100\androidx\proguard\43a4f94f-883e-4904-a6c7-da593cdba805.cfg

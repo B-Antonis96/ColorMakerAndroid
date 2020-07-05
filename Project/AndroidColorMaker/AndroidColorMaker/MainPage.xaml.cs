@@ -78,6 +78,21 @@ namespace AndroidColorMaker
             entBlauw.Text = nul;
         }
 
+        private void sldRood_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+
+        }
+
+        private void sldGroen_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+
+        }
+
+        private void sldBlauw_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+
+        }
+
         private void btnPassColorCode_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(entRood.Text))
