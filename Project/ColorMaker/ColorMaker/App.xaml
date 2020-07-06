@@ -10,7 +10,7 @@
 
             <!--Stijl voor achtergrond StackLayout-->
             <Style x:Key="BackgroundStyle" TargetType="{x:Type StackLayout}">
-                <Setter Property="BackgroundColor" Value="LightGray"/>
+                <Setter Property="BackgroundColor" Value="DarkGray"/>
             </Style>
 
             <!--Margin voor StackLayout-->
@@ -42,6 +42,7 @@
             <Style x:Key="Switch" TargetType="{x:Type Switch}">
                 <Setter Property="Scale" Value="0.8"/>
                 <Setter Property="ThumbColor" Value="CornflowerBlue"/>
+                <Setter Property="OnColor" Value="White"/>
             </Style>
             <Style x:Key="SwitchLabel" TargetType="{x:Type Label}">
                 <Setter Property="Margin" Value="0, 8, 0, 0"/>
@@ -88,7 +89,7 @@
                 <Setter Property="Maximum" Value="255"/>
                 <Setter Property="ThumbColor" Value="CornflowerBlue"/>
                 <Setter Property="MaximumTrackColor" Value="White"/>
-                <Setter Property="MinimumTrackColor" Value="Black"/>
+                <Setter Property="MinimumTrackColor" Value="DodgerBlue"/>
             </Style>
 
         </ResourceDictionary>

@@ -21,6 +21,7 @@
 
                 <BoxView Style="{StaticResource Seperator}"/>
 
+                
                 <!--///////////////////
                     ZELF KLEUR INGEVEN
                 /////////////////// -->
@@ -62,6 +63,7 @@
 
                 <BoxView Style="{StaticResource Seperator}"/>
 
+                
                 <!--///////////////////
                     RANDOM KLEUR KIEZEN
                 /////////////////// -->
@@ -97,6 +99,7 @@
 
                 <BoxView Style="{StaticResource Seperator}"/>
 
+                
                 <!--///////////////////
                     OUTPUT KLEURCODE
                 /////////////////// -->

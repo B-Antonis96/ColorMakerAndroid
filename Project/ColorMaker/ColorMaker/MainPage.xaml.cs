@@ -11,6 +11,8 @@ namespace ColorMaker
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
+
+
     public partial class MainPage : ContentPage
     {
         //Nul aanmaken
@@ -40,7 +42,7 @@ namespace ColorMaker
 
 
 
-        //INPUT GEDEELTE
+        //--- INPUT GEDEELTE ---\\
         private void cbColorInput_Toggled(object sender, ToggledEventArgs e)
         {
             if (cbColorInput.IsToggled == true)
@@ -61,21 +63,26 @@ namespace ColorMaker
             SetToBlack();
         }
 
+        //RESET Buttons
         private void btnResetRodeButton_Clicked(object sender, EventArgs e)
         {
             entRood.Text = nul;
+            sldRood.Value = int.Parse(nul);
         }
 
         private void btnResetGroeneButton_Clicked(object sender, EventArgs e)
         {
             entGroen.Text = nul;
+            sldGroen.Value = int.Parse(nul);
         }
 
         private void btnResetBlauweButton_Clicked(object sender, EventArgs e)
         {
             entBlauw.Text = nul;
+            sldBlauw.Value = int.Parse(nul);
         }
 
+        //SLIDERS veranderen
         private void sldRood_ValueChanged(object sender, ValueChangedEventArgs e)
         {
 
@@ -91,6 +98,23 @@ namespace ColorMaker
 
         }
 
+        //TEXT bij input veranderd
+        private void entRood_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void entGroen_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void entBlauw_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        //BUTTON input kleur initialiseren
         private void btnPassColorCode_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(entRood.Text))
@@ -121,7 +145,7 @@ namespace ColorMaker
 
 
 
-        //RANDOM GEDEELTE
+        //--- RANDOM GEDEELTE ---\\
         private void cbColorRandom_Toggled(object sender, ToggledEventArgs e)
         {
             if (cbColorRandom.IsToggled == true)
@@ -142,6 +166,7 @@ namespace ColorMaker
             SetToBlack();
         }
 
+        //BUTTON Random kleur initialiseren
         private void btnPassRandomCode_Clicked(object sender, EventArgs e)
         {
             Random willekeurig = new Random();
@@ -162,7 +187,7 @@ namespace ColorMaker
 
 
 
-        //RESET KLEURCODE
+        //--- RESET KLEURCODE bij output ---\\
         private void btnResetColorCode_Clicked(object sender, EventArgs e)
         {
             ediOutput.Text = "#000000";
@@ -172,7 +197,7 @@ namespace ColorMaker
 
 
 
-        //METHODES
+        //--- METHODES ---\\
 
         //KLEUR setter
         private int ColorSetter(int kleur)
@@ -244,6 +269,9 @@ namespace ColorMaker
             lblRoodInput.IsVisible = veld;
             lblGroenInput.IsVisible = veld;
             lblBlauwInput.IsVisible = veld;
+            sldRood.IsVisible = veld;
+            sldGroen.IsVisible = veld;
+            sldBlauw.IsVisible = veld;
 
             SetToNul();
         }

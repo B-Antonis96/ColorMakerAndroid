@@ -11,3 +11,16 @@ C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMake
 C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.dll
 C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ref\ColorMaker.dll
 C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.deps.json
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ref\ColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.AssemblyInfoInputs.cache
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.AssemblyInfo.cs
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.csproj.CoreCompileInputs.cache
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ref\ColorMaker.dll
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.pdb
