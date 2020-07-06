@@ -1,0 +1,13 @@
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.deps.json
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.dll
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ref\ColorMaker.dll
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\bin\Debug\netstandard2.0\ColorMaker.pdb
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.AssemblyInfoInputs.cache
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.AssemblyInfo.cs
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.csproj.CoreCompileInputs.cache
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.dll
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ref\ColorMaker.dll
+C:\Users\bryan\Desktop\ColorMakerAndroid\Project\ColorMaker\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.pdb
