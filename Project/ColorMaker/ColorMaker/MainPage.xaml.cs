@@ -85,38 +85,48 @@ namespace ColorMaker
         //SLIDERS veranderen
         private void sldRood_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-
+            int rood = Convert.ToInt32(sldRood.Value);
+            entRood.Text = rood.ToString();
         }
 
         private void sldGroen_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-
+            int groen = Convert.ToInt32(sldGroen.Value);
+            entGroen.Text = groen.ToString();
         }
 
         private void sldBlauw_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-
+            int blauw = Convert.ToInt32(sldBlauw.Value);
+            entBlauw.Text = blauw.ToString();
         }
 
         //TEXT bij input veranderd
         private void entRood_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            int.TryParse(entRood.Text, out int rood);
+            sldRood.Value = rood;
         }
 
         private void entGroen_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            int.TryParse(entGroen.Text, out int groen);
+            sldGroen.Value = groen;
         }
 
         private void entBlauw_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            int.TryParse(entBlauw.Text, out int blauw);
+            sldBlauw.Value = blauw;
         }
 
         //BUTTON input kleur initialiseren
         private void btnPassColorCode_Clicked(object sender, EventArgs e)
         {
+            int.TryParse(entRood.Text, out int rood);
+            int.TryParse(entGroen.Text, out int groen);
+            int.TryParse(entBlauw.Text, out int blauw);
+
             if (string.IsNullOrWhiteSpace(entRood.Text))
             {
                 entRood.Text = nul;
@@ -131,16 +141,15 @@ namespace ColorMaker
             }
             else
             {
-                entRood.Text = ColorSetter(int.Parse(entRood.Text)).ToString();
-                entGroen.Text = ColorSetter(int.Parse(entGroen.Text)).ToString();
-                entBlauw.Text = ColorSetter(int.Parse(entBlauw.Text)).ToString();
+                entRood.Text = ColorSetter(rood).ToString();
+                entGroen.Text = ColorSetter(groen).ToString();
+                entBlauw.Text = ColorSetter(blauw).ToString();
             }
 
-            string kleurHex = HexMaker(entRood.Text, entGroen.Text, entBlauw.Text);
+            string kleurHex = HexMaker(rood, groen, blauw);
             ediOutput.Text = kleurHex;
 
-            kleur = ByteSwitcher(entRood.Text, entGroen.Text, entBlauw.Text);
-            lblColorLabel.BackgroundColor = kleur;
+            ColorInputter(rood, groen, blauw);
         }
 
 
@@ -179,10 +188,9 @@ namespace ColorMaker
             entGroenRandom.Text = groen.ToString();
             entBlauwRandom.Text = blauw.ToString();
 
-            ediOutput.Text = HexMaker(rood.ToString(), groen.ToString(), blauw.ToString());
+            ediOutput.Text = HexMaker(rood, groen, blauw);
 
-            kleur = ByteSwitcher(rood.ToString(), groen.ToString(), blauw.ToString());
-            lblColorLabel.BackgroundColor = kleur;
+            ColorInputter(rood, groen, blauw);
         }
 
 
@@ -191,13 +199,20 @@ namespace ColorMaker
         private void btnResetColorCode_Clicked(object sender, EventArgs e)
         {
             ediOutput.Text = "#000000";
-
+            SetToNul();
             SetToBlack();
         }
 
 
 
         //--- METHODES ---\\
+
+        //KLeur in scherm laden
+        private void ColorInputter(int rood, int groen, int blauw)
+        {
+            kleur = ByteSwitcher(rood, groen, blauw);
+            lblColorLabel.BackgroundColor = kleur;
+        }
 
         //KLEUR setter
         private int ColorSetter(int kleur)
@@ -215,23 +230,18 @@ namespace ColorMaker
         }
 
         //HEX berekening
-        private string HexMaker(string textR, string textG, string textB)
+        private string HexMaker(int textR, int textG, int textB)
         {
-            int rood = int.Parse(textR);
-            int groen = int.Parse(textG);
-            int blauw = int.Parse(textB);
-
-            string hex = $"#{rood.ToString("X2")}{groen.ToString("X2")}{blauw.ToString("X2")}";
-
+            string hex = $"#{textR.ToString("X2")}{textG.ToString("X2")}{textB.ToString("X2")}";
             return hex;
         }
 
         //BYTE bewerking
-        private Color ByteSwitcher(string textR, string textG, string textB)
+        private Color ByteSwitcher(int textR, int textG, int textB)
         {
-            byte roodByte = byte.Parse(textR);
-            byte groenByte = byte.Parse(textG);
-            byte blauwByte = byte.Parse(textB);
+            byte roodByte = Convert.ToByte(textR);
+            byte groenByte = Convert.ToByte(textG);
+            byte blauwByte = Convert.ToByte(textB);
 
             Color kleur = Color.FromRgb(roodByte, groenByte, blauwByte);
 

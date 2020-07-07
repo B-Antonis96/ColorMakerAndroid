@@ -24,3 +24,4 @@ F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.dll
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ref\ColorMaker.dll
 F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.pdb
+F:\Programmeren\C# Projecten\ColorMakerAndroid\Project\ColorMaker\ColorMaker\obj\Debug\netstandard2.0\ColorMaker.csprojAssemblyReference.cache

@@ -11,6 +11,8 @@
         <ScrollView>
 
             <StackLayout>
+                
+                
                 <!--///////////////////
                     KLEURSCHERM
                 /////////////////// -->
@@ -36,21 +38,21 @@
 
                         <StackLayout Style="{StaticResource StackMargin}">
                             <Label x:Name="lblRoodInput" Text="ROOD" TextColor="Red" Style="{StaticResource LabelKleur}"/>
-                            <Entry x:Name="entRood" Style="{StaticResource EntryStyle}"/>
+                            <Entry x:Name="entRood" Style="{StaticResource EntryStyle}" TextChanged="entRood_TextChanged"/>
                             <Slider x:Name="sldRood" Style="{StaticResource SliderStyle}" ValueChanged="sldRood_ValueChanged"/>
                             <Button x:Name="btnResetRodeButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetRodeButton_Clicked"/>
                         </StackLayout>
 
                         <StackLayout Style="{StaticResource StackMargin}">
                             <Label x:Name="lblGroenInput" Text="GROEN" TextColor="Green" Style="{StaticResource LabelKleur}"/>
-                            <Entry x:Name="entGroen" Style="{StaticResource EntryStyle}"/>
+                            <Entry x:Name="entGroen" Style="{StaticResource EntryStyle}" TextChanged="entGroen_TextChanged"/>
                             <Slider x:Name="sldGroen" Style="{StaticResource SliderStyle}" ValueChanged="sldGroen_ValueChanged"/>
                             <Button x:Name="btnResetGroeneButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetGroeneButton_Clicked"/>
                         </StackLayout>
 
                         <StackLayout Style="{StaticResource StackMargin}">
                             <Label x:Name="lblBlauwInput" Text="BLAUW" TextColor="Blue" Style="{StaticResource LabelKleur}"/>
-                            <Entry x:Name="entBlauw" Style="{StaticResource EntryStyle}"/>
+                            <Entry x:Name="entBlauw" Style="{StaticResource EntryStyle}" TextChanged="entBlauw_TextChanged"/>
                             <Slider x:Name="sldBlauw" Style="{StaticResource SliderStyle}" ValueChanged="sldBlauw_ValueChanged"/>
                             <Button x:Name="btnResetBlauweButton" Text="RESET" Style="{StaticResource ResetButton}" Clicked="btnResetBlauweButton_Clicked"/>
                         </StackLayout>

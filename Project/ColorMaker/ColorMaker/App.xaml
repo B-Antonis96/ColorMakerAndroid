@@ -87,6 +87,8 @@
             <Style x:Key="SliderStyle" TargetType="Slider">
                 <Setter Property="Minimum" Value="0"/>
                 <Setter Property="Maximum" Value="255"/>
+                <Setter Property="Scale" Value="1.2"/>
+                <Setter Property="Margin" Value="0, 10, 0, 5"/>
                 <Setter Property="ThumbColor" Value="CornflowerBlue"/>
                 <Setter Property="MaximumTrackColor" Value="White"/>
                 <Setter Property="MinimumTrackColor" Value="DodgerBlue"/>
